@@ -1,0 +1,33 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle time-notes",
+        "command": "time-notes:toggle"
+      } ,
+      {
+        "label": "Enter timestamp",
+        "command": "time-notes:enter_pressed"
+      }    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "time-notes",
+          "submenu": [
+            {
+              "label": "Toggle On/Off",
+              "command": "time-notes:toggle"
+            },
+            {
+              "label": "Enter timestamp",
+              "command": "time-notes:enter_pressed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
